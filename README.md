@@ -43,8 +43,8 @@ local about = Window:MakeTab({
     PremiumOnly = false
 })
 about:AddParagraph("作者: 明月")
-about:AddParagraph("作者qq: 41")
-about:AddParagraph("qq群: 93")
+about:AddParagraph("作者qq: 91")
+about:AddParagraph("qq群: 91")
 local about = Window:MakeTab({
     Name = "玩家信息",
     Icon = "rbxassetid://4483345998",
@@ -63,4 +63,37 @@ about:AddParagraph("去恶心人死全家")
 about:AddParagraph("去恶心人没亩，没坝")
 about:AddParagraph("用了会封号，封了活该")
 local Tab =Window:MakeTab({
-	Name = "复制作者信息",	Icon = "rbxassetid://4483345998",	PremiumOnly = false})Tab:AddButton({	Name = "复制作者QQ",	Callback = function()     setclipboard("41")  	end})Tab:AddButton({	Name = "复制QQ群",	Callback = function()     setclipboard("93")  	end})OrionLib:MakeNotification({	Name = "AT",	Content = "欢迎使用AT（最强战场）",	Image = "rbxassetid://4483345998",	Time = 2})local Tab = Window:MakeTab({    Name = "最强战场破防脚本",    Icon = "rbxassetid://4483345998",    PremiumOnly = false})local Section = Tab:AddSection({	Name = "各种功能"})Tab:AddButton({	Name = "甩飞（会封）",	Callback = function()     loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()  	end    })Tab:AddButton({	Name = "隐身道具",	Callback = function()     loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()  	end    })Tab:AddButton({	Name = "纳西达",	Callback = function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/ScriptHub.lua"))()  	end    })
+	Name = "复制作者信息",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "复制作者QQ",
+	Callback = function()
+     setclipboard("41")
+  	end
+})
+Tab:AddButton({
+	Name = "复制QQ群",
+	Callback = function()
+     setclipboard("93")
+  	end
+})
+OrionLib:MakeNotification({
+	Name = "AT",
+	Content = "欢迎使用AT（最强战场）",
+	Image = "rbxassetid://4483345998",
+	Time = 2})local Tab = Window:MakeTab({
+    Name = "最强战场破防脚本",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})local Section = Tab:AddSection({
+	Name = "各种功能"
+})
+Tab:AddButton({
+	Name = "甩飞（会封）",
+	Callback = function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+  	end    
+})
+Tab:AddButton({	Name = "隐身道具",	Callback = function()loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()  	end    })Tab:AddButton({	Name = "纳西达",	Callback = function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/ScriptHub.lua"))()  	end    })
