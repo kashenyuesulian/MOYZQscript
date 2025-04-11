@@ -70,7 +70,7 @@ local Tab =Window:MakeTab({
 Tab:AddButton({
 	Name = "复制作者QQ",
 	Callback = function()
-     setclipboard("41")
+     setclipboard("4")
   	end
 })
 Tab:AddButton({
