@@ -42,7 +42,7 @@ local about = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-about:AddParagraph("作者: 明月")
+about:AddParagraph("作者: YOL")
 about:AddParagraph("作者qq: 91")
 about:AddParagraph("qq群: 91")
 local about = Window:MakeTab({
@@ -58,10 +58,10 @@ local about = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-about:AddParagraph("此脚本为免费缝合脚本")
-about:AddParagraph("去恶心人死全家")
-about:AddParagraph("去恶心人没亩，没坝")
-about:AddParagraph("用了会封号，封了活该")
+about:AddParagraph("94")
+about:AddParagraph("93")
+about:AddParagraph("97")
+about:AddParagraph("92")
 local Tab =Window:MakeTab({
 	Name = "复制作者信息",
 	Icon = "rbxassetid://4483345998",
@@ -92,8 +92,15 @@ OrionLib:MakeNotification({
 })
 Tab:AddButton({
 	Name = "甩飞（会封）",
-	Callback = function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+	Callback = function()     loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
   	end    
 })
-Tab:AddButton({	Name = "隐身道具",	Callback = function()loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()  	end    })Tab:AddButton({	Name = "纳西达",	Callback = function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/ScriptHub.lua"))()  	end    })
+Tab:AddButton({
+	Name = "隐身道具",	Callback = function()     loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "纳西达",
+	Callback = function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/ScriptHub.lua"))()
+  	end    
+})
